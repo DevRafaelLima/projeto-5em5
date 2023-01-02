@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import * as C from './App.styled';
 import {Item} from './types/Item';
 import {Items} from './data/Items';
-import {Category} from './types/Category';
 import {Categories} from './data/Categories';
 import { filterCurrentMonth, getCurrentMonth } from './helpers/dateFilter';
 import { TableArea } from './components/TableArea';
